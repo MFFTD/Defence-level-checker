@@ -11,7 +11,7 @@ To ensure accurate results, make sure to export the latest friends chat/clan cha
 
 ## Usage
 
-1. Export the friends chat/clan chat -channel names to a csv file using RuneLite plugin `Clan List Exporter`. The plugin is found in plugin hub.
+1. Export the friends chat/clan chat -channel names to a CSV file using RuneLite plugin `Clan List Exporter`. The plugin is found in plugin hub.
 2. Navigate to your `.runelite` folder and get the csv file(s) from `clanlistexports` folder and move them to this project's `csv_files` folder.
 3. Run the Python script:
     ```bash
