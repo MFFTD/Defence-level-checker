@@ -2,6 +2,10 @@
 
 Defence-level-checker is used alongside with RuneLite plugin "Clan List Exporter", which exports player names of a friends chat/clan chat -channel into a csv file.
 
+The program is designed to process the most recent CSV file stored in the `csv_files` folder. If multiple CSV files are present in the folder, the program will automatically select the file with the latest modification date as the input for processing.
+
+To ensure accurate results, make sure to export the latest friends chat/clan chat data from RuneLite and save it in the `csv_files` folder before running the program. Older CSV files can be retained in the folder without affecting the program's functionality.
+
 ## Requirements
 - Python 3.6 or higher
 
